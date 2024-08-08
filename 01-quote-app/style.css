@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 600px;
+}
+
+form {
+  display: flex;
+  background-color: lightblue;
+  padding: 2rem;
+}
+
+form > h1,
+button {
+  width: 100%;
+  margin: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-size: xx-large;
+  line-height: 65px;
+}
+
+h2 {
+  font-size: small;
+  color: grey;
+  font-style: italic;
+}
+
+button {
+  background-color: blue;
+  color: snow;
+  font-size: medium;
+  border-radius: 8px;
+}
+
+ul {
+  font-size: large;
+}
