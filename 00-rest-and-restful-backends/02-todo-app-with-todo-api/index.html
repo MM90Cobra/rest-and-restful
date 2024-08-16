@@ -9,44 +9,48 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-    <header>
-        <h1>Todo App</h1>
-    </header>
-    <main>
-        <form id="input-box">
-            <input type="text" name="description" id="description" placeholder="Insert your new Todo" />
+<body class="container bg-secondary-subtle" style="width: 300px;">
+    <div class="col bg-primary-subtle p-3" style="width: 100%;">
+        <header class="row">
+            <h1>Todo App</h1>
+        </header>
+        <main class="row">
+            <form class="" id="input-box">
+                <input type="text" name="description" id="description" placeholder="Insert your new Todo" />
 
-            <button class="btn btn-info" id="btn-add">Add</button>
-        </form>
+                <button class="col btn btn-success" id="btn-add">Add</button>
+            </form>
 
-        <form>
-            <h2>Filter & Options</h2>
-            <ul id="filter-options">
-                <li>
-                    <input type="radio" name="filter" id="all" checked />
-                    <label for="all">All</label>
-                </li>
-                <li>
-                    <input type="radio" name="filter" id="open" />
-                    <label for="open">Open</label>
-                </li>
-                <li>
-                    <input type="radio" name="filter" id="done" />
-                    <label for="done">Done</label>
-                </li>
-            </ul>
-            <button class="btn btn-" id="btn-remove">Remove Done Todos</button>
-        </form>
+            <form class="">
+                <h2 class="">Filter & Options</h2>
+                <ul class="" id="filter-options">
+                    <li>
+                        <input type="radio" name="filter" id="all" checked />
+                        <label for="all">All</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="open" />
+                        <label for="open">Open</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="filter" id="done" />
+                        <label for="done">Done</label>
+                    </li>
+                </ul>
+                <button class="btn btn-danger" id="btn-remove">Remove Done Todos</button>
+            </form>
 
-        <h2>Your Todos</h2>
-        <ul id="todos-output">
-            <li>
-                <input type="checkbox" name="todo-1" id="todo-1" />
-                <label for="todo-1">Learn JS</label>
-            </li>
-        </ul>
-    </main>
+            <h2>Your Todos</h2>
+            <div>
+                <ul id="todos-output">
+                    <li>
+                        <input type="checkbox" name="todo-1" id="todo-1" />
+                        <label for="todo-1">Learn JS</label>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
     <script src="script.js"></script>
 </body>
 
